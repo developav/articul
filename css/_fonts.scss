@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'drukwidecyr';
+    src: url('../fonts/drukwidecyr-medium.woff2');
+    src: local('drukwidecyr-medium'), local('drukwidecyr-medium'),
+        url('../fonts/drukwidecyr-medium.woff2') format('woff2'),
+        url('../fonts/drukwidecyr-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'drukwidecyr-bold';
+    src: url('fonts/drukwidecyr-bold.woff2');
+    src: local('drukwidecyr-bold'), local('drukwidecyr-bold'),
+        url('fonts/drukwidecyr-bold.woff2') format('woff2'),
+        url('fonts/drukwidecyr-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+

@@ -1,0 +1,112 @@
+.last {
+    &__descr{
+        &-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 274px;
+            padding-bottom: 237px;
+            position: relative;
+        }
+        &-list {
+            position: relative;
+            top: 3vw;
+            left: 10.5vw;
+            animation: 2s linear 2s normal running last;
+            animation-fill-mode: forwards;
+        }
+        &-item {
+            position: absolute;
+            padding: 0 1vw;
+            font-size: 1.19vw;
+            font-weight: 500;
+            line-height: 3vw;
+            text-transform: uppercase;
+            border: 2px solid #c31e54;
+            border-radius: 67px;
+            color: #ffffff;
+            &:last-child {
+                left: 4.2vw;
+                transform: rotate(-43deg);
+                width: 18vw;
+                top: 0.5vw;
+            }
+            &:first-child {
+                left: 4.7vw;
+                width: 13.3vw;
+                transform: rotate(46deg);
+                top: -11.4vw;
+            }
+            &:nth-child(2){
+                left: -9.5vw;
+                width: 22.3vw;
+                top: -4.5vw;
+                transform: rotate(0deg);
+            }
+            
+        }
+        &-text {
+            font-size: 1.8vw;
+            line-height: 2.5vw;
+            letter-spacing: 0.05vw;
+            text-transform: uppercase;
+            padding: 0 252px 0px 0px;
+            width: 54.9vw;
+        }
+    }
+   
+}
+@media (max-width:1360px) {
+    .last__descr-text {
+        font-size: 1.8vw;
+        line-height: 2.5vw;
+        letter-spacing: 0.05vw;
+        padding: 0 0px 0px 0px;
+        width: 40.9vw;
+    }
+}
+@media (max-width:770px) {
+    .last {
+        &__descr{
+            &-group {
+                padding-top: 96vw;
+                padding-bottom: 37px;
+            }
+            &-list {
+                width: 0vw;
+                top: -68vw;
+                left: 40.5vw;
+            }
+            &-item {
+                padding: 0px 3vw;
+                font-size: 3.59vw;
+                font-weight: 500;
+                line-height: 10vw;
+                &:last-child {
+                    left: 1.2vw;
+                    width: 53vw;
+                    top: 24.5vw;
+                }
+                &:first-child {
+                    left: 3.7vw;
+                    width: 39.3vw;
+                    top: -10.4vw;
+                }
+                &:nth-child(2){
+                    left: -39.5vw;
+                    width: 66.3vw;
+                    top: 9.5vw;
+                }
+                
+            }
+            &-text {
+                font-size: 3.3vw;
+                line-height: 4.5vw;
+                letter-spacing: 0.05vw;
+                padding: 0 11px 0px 0px;
+                width: 95vw;
+            }
+        }
+       
+    } 
+}
