@@ -53,6 +53,10 @@
             padding: 0 252px 0px 0px;
             width: 54.9vw;
         }
+        &-link {
+            color: #ffffff;
+            text-decoration: underline solid #ffffff 3px;
+        }
     }
    
 }
@@ -152,10 +156,7 @@
                 padding: 0 11px 0px 0px;
                 width: 88vw;
             }
-            &-link {
-                color: #ffffff;
-                text-decoration: underline solid #ffffff 3px;
-            }
+            
         }
        
     } 
