@@ -49,6 +49,10 @@ li{
 	padding: 0;
 	margin: 0;
 }
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
 @keyframes rot {
 	0% {
 	  transform: rotate(0deg);

@@ -23,18 +23,18 @@
             &:last-child {
                 margin-bottom: 0;
             }
-            &:first-child {
-                animation: 2s linear 2s normal running width;
-                animation-fill-mode: forwards;
-            }
-            &:nth-child(3){
-                animation: 2s linear 2s normal running width;
-                animation-fill-mode: forwards;
-            }
-            &:nth-child(4){
-                animation: 2s linear 2s normal running width;
-                animation-fill-mode: forwards;
-            }
+            // &:first-child {
+            //     animation: 2s linear 2s normal running width;
+            //     animation-fill-mode: forwards;
+            // }
+            // &:nth-child(3){
+            //     animation: 2s linear 2s normal running width;
+            //     animation-fill-mode: forwards;
+            // }
+            // &:nth-child(4){
+            //     animation: 2s linear 2s normal running width;
+            //     animation-fill-mode: forwards;
+            // }
             
         }
     }
@@ -62,6 +62,8 @@
             position: absolute;
             top: 7vw;
             right: -2vw;
+            overflow-x:hidden;  
+            overflow-y:hidden;  
            
             &-span {
                 position: absolute;
@@ -424,8 +426,9 @@
             letter-spacing: 0.08em;
             font-family: drukwidecyr, Arial, sans-serif;
             &-svg{
-                width: 65vw;
-                height: 65vw;
+                max-width: 65vw;
+                max-height: 65vw;
+                vertical-align: top;
             }
             &-group{
                 top: 62vw;

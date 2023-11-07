@@ -130,7 +130,7 @@
                 line-height: 10vw;
                 &:last-child {
                     left: 1.2vw;
-                    width: 53vw;
+                    width: 54vw;
                     top: 24.5vw;
                 }
                 &:first-child {
@@ -151,6 +151,10 @@
                 letter-spacing: 0.28vw;
                 padding: 0 11px 0px 0px;
                 width: 88vw;
+            }
+            &-link {
+                color: #ffffff;
+                text-decoration: underline solid #ffffff 3px;
             }
         }
        
