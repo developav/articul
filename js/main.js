@@ -7,4 +7,4 @@ function close (){
         });
     }
 }
-close()
+close();
