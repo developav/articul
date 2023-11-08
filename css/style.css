@@ -1510,6 +1510,7 @@ svg:not(:root) {
     flex-direction: row;
     flex: 0 0 auto;
     overflow: auto;
+    overflow-y: hidden;
     width: 100%;
   }
   .acor__list-item {
@@ -1603,12 +1604,14 @@ svg:not(:root) {
     align-items: center;
   }
   .acor__btn {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 29px;
     padding: 21px 36px 20px 36px;
     width: 100%;
     min-height: 59px;
-    font-size: 19px;
+    font-size: 16px;
     letter-spacing: 4px;
     line-height: 19.5px;
     font-weight: 100;
@@ -1883,7 +1886,6 @@ svg:not(:root) {
     align-items: center;
   }
   .acor__btn {
-    display: inline-block;
     margin-right: 0px;
     padding: 7px 10px 2px 10px;
     width: 100%;
@@ -1897,6 +1899,10 @@ svg:not(:root) {
     background-color: #C31E54;
     border-radius: 129px;
     color: #ffffff;
+  }
+  .acor__btn svg {
+    width: 25px;
+    height: 25px;
   }
   .acor__cont .acor__input:checked + .acor__label {
     background-color: inherit;
@@ -1972,6 +1978,11 @@ svg:not(:root) {
   text-transform: uppercase;
   padding: 0 252px 0px 0px;
   width: 54.9vw;
+}
+.last__descr-link {
+  color: #ffffff;
+  -webkit-text-decoration: underline solid #ffffff 3px;
+          text-decoration: underline solid #ffffff 3px;
 }
 
 @media (max-width: 1360px) {
@@ -2059,11 +2070,6 @@ svg:not(:root) {
     letter-spacing: 0.28vw;
     padding: 0 11px 0px 0px;
     width: 88vw;
-  }
-  .last__descr-link {
-    color: #ffffff;
-    -webkit-text-decoration: underline solid #ffffff 3px;
-            text-decoration: underline solid #ffffff 3px;
   }
 }
 @font-face {
