@@ -19,23 +19,10 @@
             border: 2px solid #c31e54;
             border-radius: 67px;
             color: #ffffff;
-            
+            transition: width 0.3s linear;
             &:last-child {
                 margin-bottom: 0;
-            }
-            // &:first-child {
-            //     animation: 2s linear 2s normal running width;
-            //     animation-fill-mode: forwards;
-            // }
-            // &:nth-child(3){
-            //     animation: 2s linear 2s normal running width;
-            //     animation-fill-mode: forwards;
-            // }
-            // &:nth-child(4){
-            //     animation: 2s linear 2s normal running width;
-            //     animation-fill-mode: forwards;
-            // }
-            
+            }   
         }
     }
     &__heading-block {
